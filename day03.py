@@ -9,3 +9,5 @@ letter = '''
         {spokesman}
         {job_title}
 '''
+print(letter.format(salutation="1", name='김건유', product='car', verbed='ate',
+                    room='oneroom', animals='dog', amount='three', percent="10", spokesman="building owner", job_title="manager"))

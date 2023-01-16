@@ -1,5 +1,5 @@
 li = ['Duck', 'Gourd', 'Spitz']
 
 for string in li:
-    shape = "{}y M{}sface".format(string, string)
+    shape = f"{string}y M{string}sface"
     print(shape)

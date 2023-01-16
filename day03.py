@@ -1,5 +1,5 @@
 li = ['Duck', 'Gourd', 'Spitz']
 
 for string in li:
-    shape = "%sy Mc%sface"%(string,string)
+    shape = "{}y M{}sface".format(string, string)
     print(shape)

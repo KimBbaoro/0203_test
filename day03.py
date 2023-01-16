@@ -1,12 +1,7 @@
-guess_me = 5
-number = 1
+li = ['duck', 'gourd', 'spitz']
 
-for number in range(10):
-    if number < guess_me:
-        print('too low')
-    elif number == guess_me:
-        print("found it")
-        break
-    else:
-        print('oops')
-        break
+for string in li:
+    string = string.capitalize()
+    shape = "{}y M{}sface".format(string, string)
+    shape = f"{string}y M{string}sface"
+    print(shape)

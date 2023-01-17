@@ -1,2 +1,2 @@
 life = {"animals" : {'cats' : "Henri", "octopi":"Grumpy", 'emus':"Lucy"}, "plants" : {}, "other" : {}}
-print(life["animals"].keys())
+print(life["animals"]['cats'])

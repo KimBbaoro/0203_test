@@ -1,5 +1,5 @@
-keys = ['optimist', "pessimist", "troll"]
-values = ['half full', 'half empty', 'how?']
+titles =['Creature of Habit', "Crewel Fate"]
+plots = ["A nun turns into a monster", "A haunted yarn shop"]
 
-dict = {key:value for key, value in zip(keys, values)}
-print(dict)
+movies = {title:plot for title, plot in zip(titles, plots)}
+print(movies)

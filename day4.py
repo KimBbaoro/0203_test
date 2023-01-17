@@ -1,3 +1,5 @@
-gc = (f"Got {num}" for num in range(10))
-for i in gc:
-    print(i)
+keys = ['optimist', "pessimist", "troll"]
+values = ['half full', 'half empty', 'how?']
+
+dict = {key:value for key, value in zip(keys, values)}
+print(dict)

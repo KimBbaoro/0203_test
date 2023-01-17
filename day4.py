@@ -1,3 +1,4 @@
 e2f = {"dog" : "chien", "cat" : "chat", "walrus" : "morse"}
-f2e = e2f.items()
-print(f2e)
+
+ans = [eng for eng, fre in e2f.items() if fre == 'chien']
+print(ans[0])

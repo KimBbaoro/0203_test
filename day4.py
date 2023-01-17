@@ -1,2 +1,2 @@
-life = {"animals" : {'cats' : "Henri", "octopi":"Grumpy", 'emus':"Lucy"}, "plants" : {}, "other" : {}}
-print(life["animals"]['cats'])
+squares = {num : num**2 for num in range(10)}
+print(squares)

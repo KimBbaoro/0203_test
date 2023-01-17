@@ -1,3 +1,2 @@
-e2f = {"dog" : "chien", "cat" : "chat", "walrus" : "morse"}
-
-print(e2f.keys())
+life = {"animals" : {'cats' : "Henri", "octopi":"Grumpy", 'emus':"Lucy"}, "plants" : {}, "other" : {}}
+print(life)

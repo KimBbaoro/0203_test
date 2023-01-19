@@ -1,13 +1,14 @@
-#데코레이터 만들기
-def test(func):
-    def new_function():
-        print('start')
-        func()
-        print('end')
-    return new_function
+class OopsException(Exception):
+    pass
 
-@test
-def tmp():
-    print("functioning~~")
+test = ['a','b','c','d']
+value = 1
 
-tmp()
+try:
+    if len(test) > value:
+        raise OopsException
+    else:
+        print('ssss')
+except OopsException:
+    print('Caught an oops')
+

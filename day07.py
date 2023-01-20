@@ -4,9 +4,10 @@ class Element:
         self.symbol = symbol
         self.number = number
 
-element = Element("Hydrogen","H",1)
-print(element.name)
-print(element.symbol)
-print(element.number)
+#element = Element("Hydrogen","H",1)
+
+el_dict = {'name':"Hydrogen", "symbol" : "H", "number" : 1}
+element = Element(el_dict['name'],el_dict['symbol'],el_dict['number'])
+
 
 

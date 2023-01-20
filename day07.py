@@ -1,16 +1,15 @@
-class Bear:
-    def eats(self):
-        return 'Berries'
+# class Laser:
+#     pass
+#
+# class Claw:
+#     pass
+#
+# class SmartPhone:
+#     pass
 
-class Rabbit:
-    def eats(self):
-        return "Clover"
+class Thing3:
+    def __init__(self,letters):
+        self.letters = letters
 
-class Octothorpe:
-    def eats(self):
-        return 'campers'
-
-a = Bear()
-b = Rabbit()
-c = Octothorpe()
-print(a.eats(),b.eats(),c.eats())
+thing =Thing3('xyz')
+print(thing.letters)

@@ -1,8 +1,12 @@
-class Thing3:
-    pass
+class Element:
+    def __init__(self, name, symbol, number):
+        self.name = name
+        self.symbol = symbol
+        self.number = number
 
-thing3 = Thing3()
-thing3.letters = 'xyz'
-print(thing3().letters)
-#answer : Yes
+element = Element("Hydrogen","H",1)
+print(element.name)
+print(element.symbol)
+print(element.number)
+
 

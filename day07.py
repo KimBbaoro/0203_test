@@ -1,8 +1,7 @@
-class Thing:
+class Thing2:
     pass
 
-print(Thing())
-example = Thing()
-print(example)
-
+thing2 = Thing2()
+thing2.letters = 'abc'
+print(thing2.letters)
 #answer : Yes

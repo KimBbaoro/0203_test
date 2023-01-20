@@ -15,11 +15,17 @@ class Element2:
         self.symbol = symbol
         self.number = number
 
-    def __str__(self):
-        return f'{self.name}, {self.symbol}, {self.number}'
-        # print(self.name)
-        # print(self.symbol)
-        # print(self.number)
+    @property
+    def infomation(self):
+        return [self.name, self.symbol, self.number]
+
+    @infomation.setter
+    def information(self, name, symbol, number):
+        self.name = name
+        self.symbol = symbol
+        self.number = number
+
+
 
 
 #element = Element("Hydrogen","H",1)

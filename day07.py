@@ -4,4 +4,5 @@ class Thing3:
 thing3 = Thing3()
 thing3.letters = 'xyz'
 print(thing3().letters)
+#answer : Yes
 

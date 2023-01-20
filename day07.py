@@ -13,9 +13,9 @@ class Element:
 #element = Element("Hydrogen","H",1)
 
 el_dict = {'name':"Hydrogen", "symbol" : "H", "number" : 1}
-element = Element(el_dict['name'],el_dict['symbol'],el_dict['number'])
+hydrogen = Element(el_dict['name'],el_dict['symbol'],el_dict['number'])
 
-element.dump()
+hydrogen.dump()
 
 
 

@@ -1,6 +1,7 @@
-class Thing2:
+class Thing3:
     pass
 
-Thing2().letters = 'abc'
-print(Thing2().letters)
+thing3 = Thing3()
+thing3.letters = 'xyz'
+print(thing3().letters)
 
